@@ -28,3 +28,7 @@ if __name__ == "__main__":
         # 1. Menampilkan objek (__str__)
         print("Representasi Objek:")
         print(rect)
+
+        # 2. Memanggil fungsi keliling
+        circumference = rect.calculate_circumference()
+        print(f"Keliling: {circumference} cm")
