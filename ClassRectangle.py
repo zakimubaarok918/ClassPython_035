@@ -5,3 +5,7 @@ class Rectangle:
             raise ValueError("Panjang dan lebar harus lebih besar dari 0.")
         self.length = length
         self.width = width
+
+    def calculate_circumference(self) -> float:
+        """Menghitung keliling persegi panjang."""
+        return 2 * (self.length + self.width)    
