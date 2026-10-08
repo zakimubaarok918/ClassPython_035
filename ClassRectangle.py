@@ -17,3 +17,8 @@ class Rectangle:
     def __str__(self) -> str:
         """Mengembalikan representasi string dari objek."""
         return f"rectangle, {self.length} cm long, and {self.width} cm wide"
+
+
+ # --- Menjalankan dan Menguji Kelas Rectangle ---
+if __name__ == "__main__":
+    try:
