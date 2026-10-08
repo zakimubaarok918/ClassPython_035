@@ -36,3 +36,6 @@ if __name__ == "__main__":
         # 3. Memanggil fungsi luas
         area = rect.calculate_area()
         print(f"Luas: {area} cm²")
+
+    except ValueError as e:
+        print(f"Error: {e}")    
