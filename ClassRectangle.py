@@ -32,3 +32,7 @@ if __name__ == "__main__":
         # 2. Memanggil fungsi keliling
         circumference = rect.calculate_circumference()
         print(f"Keliling: {circumference} cm")
+
+        # 3. Memanggil fungsi luas
+        area = rect.calculate_area()
+        print(f"Luas: {area} cm²")
