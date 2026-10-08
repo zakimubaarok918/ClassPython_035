@@ -22,3 +22,5 @@ class Rectangle:
  # --- Menjalankan dan Menguji Kelas Rectangle ---
 if __name__ == "__main__":
     try:
+        # Membuat objek Rectangle
+        rect = Rectangle(length=3, width=2)
